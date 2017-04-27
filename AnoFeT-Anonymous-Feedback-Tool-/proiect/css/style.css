@@ -1,0 +1,348 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+.Ievent{
+	padding: 122px 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.Isubmit{
+	padding: 122px 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.Idescription {
+
+	padding: 122px 20px;
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+select {
+    width: 13%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+form{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media all and (max-width: 600px){
+  select {
+     width: 100%; max-width: 100%;
+  }
+
+}
+
+.modal {
+   width:30%;
+   background-position: center;
+   margin-left: 70%;
+   margin-top: 4%;
+
+}
+
+.modal-content{
+
+}
+
+
+.close {
+
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.login{
+	float: right;
+	padding: 122px 20px;
+    padding: 12px 20px;
+   	color:white;
+    border-radius: 4px;
+    background-color: #333;
+    resize: none;
+
+}
+.signup{
+  margin-left: 42.5%;
+  margin-right: 42.5%;
+  width:15%;
+  color:black;
+  border-radius: 4px;
+  background-color: #333;
+  resize:none;
+}
+
+.input_search_bar{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 100px 10px 20px;
+  border: 2px solid  #e5c9cf;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  margin-left: 32.25%;
+  width: auto;
+}
+
+.button_search{
+display: inline-block;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+cursor: pointer;
+padding: 9px 22px;
+border: 2px solid  #e5c9cf;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+font: normal 16px/normal "Times New Roman", Times, serif;
+color: rgba(79,79,79,1);
+-o-text-overflow: clip;
+text-overflow: clip;
+background:  #e5c9cf;
+-webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+
+-webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+-moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+-o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.quote1{
+  font: bold 40px/1 "annie-use-your-telescope", Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4C1616;
+}
+.quote2{
+  font: normal 25px/1 "actor", Helvetica, sans-serif;
+  color: #956565;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font: normal 45px/1 "annie-use-your-telescope", Helvetica, sans-serif;
+}
+
+table.table td{
+  font: normal 16px/1 "actor", Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button_search2{
+display: inline-block;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+cursor: pointer;
+padding: 9px 22px;
+border: 2px solid  #e5c9cf;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+font: normal 16px/normal "Times New Roman", Times, serif;
+color: white;
+-o-text-overflow: clip;
+text-overflow: clip;
+background:  #e5c9cf;
+-webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+text-align: justify;
+-webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+-moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+-o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.resize{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+.descript{
+  width: 500px;
+  height: 60px;
+}
+
+a{
+  color: rgba(79,79,79,1);
+}
+
+.myaccount{
+  border: 1px solid black;
+  padding: 14px;
+  border-radius: 5px;
+  background-color:  #e5c9cf;
+  float: left;
+  width: 10%;
+  left: 0;
+}
+
+.form_myaccout{
+  right: 0;
+  float: right;
+  width: 90%;
+  padding-left: 3%;
+}
+
+.wrapper{
+  position: relative;
+}
+
+
+ .rate{
+        color:black;
+        cursor:pointer;
+    }
+    .rate:hover{
+        color:red;
+    }
+    .rate-item{
+        float:right;
+        cursor:pointer;
+        margin:0px 15px 0px 15px;
+    }
+    .rate-item:hover ~ .rate-item {
+        color: black;
+    }
+
+
+.Tdescription {
+
+  padding: 122px 20px;
+  width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}

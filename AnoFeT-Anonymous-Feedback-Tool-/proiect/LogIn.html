@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Title</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="js/proiect.js"></script>
+
+	</head>
+<body style="font-family:Courier">
+	
+<!-- NavBar -->
+
+<div class="topnav" id="myTopnav">
+	<a href="index.html">Home</a>
+	<a href="history.html">Histoy</a>
+	
+	<a href="LogIn.html" >Log in</a>
+	<a href="SignUp.html" >Sign Up</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- End of NavBar -->
+<br><br><br><br>
+<!--Log in-->
+
+
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+ 
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+     
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+</body>
+
+
+</html>

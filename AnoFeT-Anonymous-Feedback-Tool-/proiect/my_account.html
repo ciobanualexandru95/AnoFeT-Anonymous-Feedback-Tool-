@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Title</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="js/proiect.js"></script>
+		<script type="text/javascript" script-name="annie-use-your-telescope" src="http://use.edgefonts.net/annie-use-your-telescope.js"></script>
+
+	</head>
+<body style="font-family:Courier">
+
+<!-- NavBar -->
+
+<div class="topnav" id="myTopnav">
+	<a href="index.html">Home</a>
+	<a href="MyAccount.html">My Account</a>
+	
+	<a href="SignUp.html" >Sign Up</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+	<button onclick="document.getElementById('id01').style.display='block'" class="login">Login</button>
+
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+	  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <button type="submit">Log in</button>
+
+
+
+
+    </div>
+  </form>
+</div>
+</div>
+
+<!-- End of NavBar -->
+
+
+<!-- Form -->
+
+<form>
+	<fieldset>
+    <legend class="title">AnoFet</legend><br>
+</form>
+<div>
+<div class="myaccount">
+  <button class="button_search" type="submit"><a href="my_account.html">My Account</a></button><br><br>
+  <button class="button_search" type="submit"><a href="">My Products</a></button>
+</div>
+
+
+
+<script language="JavaScript" type="text/javascript">
+function HandleBrowseClick()
+{
+    var fileinput = document.getElementById("browse");
+    fileinput.click();
+    var textinput = document.getElementById("filename");
+    textinput.value = fileinput.value;
+}
+</script>
+
+<div class="form_myaccout">
+  <form>
+  	First name:<br>
+  	<input type="text" name="firstname">
+  	<br>
+    Last name:<br>
+    <input type="text" name="lastname"><br>
+  	Age:<br>
+  	<input type="number" name="email"><br>
+  	Workplace:<br>
+  	<input type="text" name="password"><br>
+  	Are you specialized in one of the categories? (Optional)<br>
+    <label>Select category</label>
+    <select class="button_search">
+      <option value = "1">Electronics</option>
+      <option value = "2">Places</option>
+      <option value = "3">Artefacts</option>
+      <option value = "4">People</option>
+      <option value = "5">Events</option>
+      <option value = "6">Fitness & Sports</option>
+      <option value = "7">Family & Pets</option>
+      <option value = "8">Health & Beauty</option>
+    </select>
+    <br>
+    Upload a document related to your qualification:<br>
+
+    <input type="file" id="browse" name="fileupload" style="display: none"/>
+    <input type="text" id="filename" readonly="true"/>
+    <input class="button_search" type="button" value="Click to select file" id="fakeBrowse" onclick="HandleBrowseClick();"/>
+      <br><br>
+    <button class="button_search" type="submit"><a href="">Save</button>
+
+  </form>
+</div>
+</div>
+
+
+<!-- end Form -->
+
+
+</body>
+
+
+</html>
